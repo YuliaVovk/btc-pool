@@ -1,0 +1,150 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/Open_Sans/OpenSans.ttf");
+}
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("../fonts/Open_Sans/OpenSans-Bold.ttf");
+}
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../fonts/Montserrat/Montserrat-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/Gotham/Gotham-Bold.otf");
+}
+
+body {
+  background-position: top;
+  background-size: 100vw 130vh;
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+}
+.img {
+  max-width: 629px;
+}
+
+.stats-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #fff;
+}
+
+.stats {
+  display: flex;
+  gap: 10px;
+  font-family: "Montserrat-SemiBold";
+  color: #fff;
+}
+
+.left,
+.center,
+.right {
+  display: flex;
+  gap: 10;
+  font-family: "Montserrat-SemiBold";
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav > p {
+  cursor: pointer;
+}
+
+.bitcoin {
+  border: 1px solid;
+  display: flex;
+  gap: 11px;
+  align-self: center;
+  color: #fff;
+  border-radius: 4px;
+  padding: 10px 17px;
+}
+
+.bitcoin > img {
+  color: inherit;
+}
+
+.nic {
+  display: flex;
+  align-items: center;
+  color: #5639b7;
+  gap: 10px;
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 4px 38px;
+  background-color: #fff;
+}
+.container {
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.navbar {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar > .nav {
+  gap: 38px;
+}
+
+.navbar > .logo {
+  display: flex;
+  gap: 13.06px;
+  align-items: center;
+}
+.container {
+  padding: 0 20px;
+  max-width: 1115px;
+  margin: 0 auto;
+}
+
+.laptop {
+  /* transform: translateX(100px); */
+  margin-top: 65px;
+}
+
+.laptop img {
+  width: 629px;
+}
+
+.header {
+  display: flex;
+}
+
+.hero {
+  min-width: 600px;
+}
+
+.hero > h1 {
+  font-family: "OpenSans-Bold", sans-serif;
+  font-size: 28px;
+  letter-spacing: 0.05em;
+  color: #fff;
+  margin-top: 150px;
+  line-height: 36px;
+}
+.hero > p {
+  font-family: "Montserrat-SemiBold", monospace;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  color: #fff;
+  margin-top: 25px;
+  line-height: 24px;
+}
+.logo {
+  font-family: "Gotham-Bold";
+  font-size: 21px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
