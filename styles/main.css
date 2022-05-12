@@ -279,11 +279,11 @@ h3 {
   position: absolute;
   top: -1px;
 }
-.list_cards {
-  display: flex;
+
+.news_card_list {
   margin-top: 39px;
-  justify-content: space-between;
 }
+
 .news_card {
   box-shadow: 0px 0px 35px 0px #d5d5e3;
   background-color: #fff;
@@ -375,6 +375,14 @@ h3 {
     gap: 20px 0;
   }
 
+  .list_cards {
+    margin-top: 0;
+  }
+
+  .news_card_list {
+    margin-top: 39px;
+  }
+
   .coin_card,
   .news_card,
   .tweets_card {
@@ -428,9 +436,7 @@ h3 {
   .card_stats {
     grid-template-columns: 1fr;
   }
-}
 
-@media screen and (max-height: 750px) {
   body {
     background-image: none;
   }
