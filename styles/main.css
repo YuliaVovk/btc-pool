@@ -73,7 +73,7 @@ body {
 }
 
 .bitcoin {
-  border: 1px solid;
+  border: 1px solid #fff;
   display: flex;
   gap: 11px;
   align-self: center;
@@ -354,7 +354,53 @@ h3 {
   font-family: "Montserrat";
   letter-spacing: 0.05em;
 }
+footer {
+  background-color: #fff;
+  margin-top: 86px;
+}
 
+.footer_menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #333;
+}
+
+.footer_bitcoin {
+  display: flex;
+  border: 1px solid #ccd4dc;
+  gap: 11px;
+  align-self: center;
+  color: #000;
+  border-radius: 4px;
+  padding: 10px 17px;
+}
+
+.footer_bitcoin > img {
+  color: inherit;
+}
+
+.burger {
+  display: none;
+}
+
+.footer_menu {
+  border-bottom: 1px solid #ccc;
+  justify-content: space-between !important;
+}
+.footer_bar {
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 38px;
+}
+
+.author {
+  display: block;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-bottom: 11px;
+}
 @media screen and (max-width: 1109px) {
   .navbar > .nav {
     flex-grow: 0.9;
@@ -414,6 +460,10 @@ h3 {
 
   .burger {
     display: block;
+  }
+
+  .footer_bar {
+    display: none;
   }
 }
 
